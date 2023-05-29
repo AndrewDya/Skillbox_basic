@@ -1,13 +1,19 @@
-# count_text = int(input(("Введите количество выводов: ")))
-# count = 0
-# while count_text != count:
-# 	print("Я - программист!")
-# 	count += 1
+# Задача 1. Надоедливый заказчик
 
-# count_message = int(input("Введите количество раз для напоминания: "))
-# while count_message != 0:
-# 	print("Вы хотели не забыть о чём-то")
-# 	count_message -= 1
+count_text = int(input(("Введите количество выводов: ")))
+count = 0
+while count_text != count:
+	print("Я - программист!")
+	count += 1
+
+# Задача 2. Напоминалка
+
+count_message = int(input("Введите количество раз для напоминания: "))
+while count_message != 0:
+	print("Вы хотели не забыть о чём-то")
+	count_message -= 1
+
+# Задача 3. Рыбалка
 
 n = int(input("Сколько раз ходили перетаскивать? "))
 total_weight = 0

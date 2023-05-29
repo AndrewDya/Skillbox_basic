@@ -38,4 +38,7 @@ def eqv(num_1, num_2, num_3):
 	return math.isclose(num_1 + num_2, num_3)
 
 
+# def eqv(a, b, c):
+#     return abs((a + b) - c) <= 1e-15
+
 print(eqv(1.1, 2.2, 3.3))

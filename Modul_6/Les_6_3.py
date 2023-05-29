@@ -1,3 +1,5 @@
+# Задача 1. Бегать — это полезно
+
 temperature = int(input("Введите температуру: "))
 distance = 0
 while temperature >= 15:
@@ -7,6 +9,8 @@ while temperature >= 15:
 		break
 	distance += 10
 print("Шагов пройдено", distance)
+
+# Задача 2. Расшифровка кода
 
 number = int(input("Введите число: "))
 total = 0
@@ -18,6 +22,8 @@ while number > 0:
 		break
 	number //= 10
 print("Сумма цифр", total)
+
+# Задача 3. Ставки приняты, ставок больше нет
 
 money = int(input("Введите начальное количество денег: "))
 while money < 10000:

@@ -1,15 +1,16 @@
 # Задача 1. Квадраты превратились в кубы
-# for i in range(11):
-# 	print(i ** 3)
+
+for i in range(11):
+	print(i ** 3)
 
 # Задача 2. Сумма чисел
 
-# first_num = int(input("Введите первое число: "))
-# second_num = int(input("Введите второе число: "))
-# sum_num = 0
-# for i in range(first_num, second_num + 1):
-# 	sum_num += i
-# print(f"Сумма чисел от 5 до 10 равна {sum_num}")
+first_num = int(input("Введите первое число: "))
+second_num = int(input("Введите второе число: "))
+sum_num = 0
+for i in range(first_num, second_num + 1):
+	sum_num += i
+print(f"Сумма чисел от 5 до 10 равна {sum_num}")
 
 # Задача 3. Поел — можно и поспать, поспал — можно и поесть
 

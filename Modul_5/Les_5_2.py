@@ -1,12 +1,15 @@
-# x = int(input("Введите x: "))
-# y = int(input("Введите y: "))
-# if x > y:
-# 	print(f"{x} > {y}")
-# if x < y:
-# 	print(f"{x} < {y}")
-# if x == y:
-# 	print(f"{x} равен {y}")
+# Задача 1. Координаты
 
+x = int(input("Введите x: "))
+y = int(input("Введите y: "))
+if x > y:
+	print(f"{x} > {y}")
+if x < y:
+	print(f"{x} < {y}")
+if x == y:
+	print(f"{x} равен {y}")
+
+# Задача 2. Скидки!
 
 bank_total = int(input("Сколько денег на счету? "))
 if bank_total >= 75000:
@@ -19,6 +22,8 @@ else:
 	print("Не хватает денег на счёте")
 print("Остаток на счету", bank_total)
 print("Хорошего дня!")
+
+# Задача 3
 
 money = int(input("Введите сумму: "))
 cheeze_price = 60
